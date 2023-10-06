@@ -493,8 +493,8 @@ form a{
       
     }
     
-    /* ---Media query for less than 390 screen size --- */
-    @media only screen and (max-width: 390px){
+    /* ---Media query for less than 450 screen size --- */
+    @media only screen and (max-width: 450px){
         nav ul{
             font-size: 0.9rem;
             margin-top: -55px;
