@@ -26,8 +26,7 @@
                 <li><a href="account.html">Account</a></li>
             </ul>
         </nav>
-        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" class="cart"></a>
     </div>
     </div>
 
@@ -146,22 +145,6 @@
         <p class="copyright">Copyright 2023 - Samson Ayinde</p>
     </div>
 </div>
-
-<!---------JS Toggle for Menu --------->
-<script>
-    var MenuItem = document.getElementById("MenuItems");
-    MenuItems.style.maxHeight = "0px";
-    function  menutoggle(){
-        if(MenuItems.style.maxHeight == "0px")
-        {
-            MenuItems.style.maxHeight = "200px";
-        }
-        else{
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-</script>
-
 </body>
 </html>
 
