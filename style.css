@@ -451,7 +451,6 @@ form a{
         position: absolute;
         top: 70px;
         left: 0;
-        background: #333;
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
@@ -463,13 +462,11 @@ form a{
         margin-bottom: 10px;
     }
     nav ul li a{
-        color: #fff;
+        color: #000;
     }
-    .menu-icon{
-        display: block;
-        cursor: pointer;
+    .navbar .cart{
+        display: none;
     }
-
 }
 
     /* ---Media query for less than 600 screen size --- */
@@ -492,7 +489,19 @@ form a{
         }
         .cart-info p{
             display: none;
-            
-
+        }
+      
+    }
+    
+    /* ---Media query for less than 390 screen size --- */
+    @media only screen and (max-width: 390px){
+        nav ul{
+            font-size: 0.9rem;
+            margin-top: -55px;
+        }
+        .cart-info img{
+            max-width: 40%;
+            padding: 40px 0;
+            margin-top: -40px;
         }
     }
