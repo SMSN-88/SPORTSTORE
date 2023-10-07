@@ -467,6 +467,12 @@ form a{
     .navbar .cart{
         display: none;
     }
+    .testimonial{
+        margin-right: 20px;
+    }
+    .testimonial .small-container .row{
+        margin-left: 40px;
+    }
 }
 
     /* ---Media query for less than 600 screen size --- */
@@ -493,8 +499,8 @@ form a{
       
     }
     
-    /* ---Media query for less than 450 screen size --- */
-    @media only screen and (max-width: 450px){
+    /* ---Media query for less than 390 screen size --- */
+    @media only screen and (max-width: 390px){
         nav ul{
             font-size: 0.9rem;
             margin-top: -55px;
@@ -504,4 +510,8 @@ form a{
             padding: 40px 0;
             margin-top: -40px;
         }
+        
+    .testimonial .small-container .row{
+        margin-right: 50px;
+    }   
     }
